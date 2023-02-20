@@ -1,7 +1,6 @@
 body{
   margin: 0% 0%;
   padding: 0% 0%;
-  font-family: 'Advent Pro', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
 
@@ -48,7 +47,7 @@ text-decoration: none;
   z-index: 7;
 
 }
-.header li a {
+.nav-droite li a {
   text-decoration: none;
   display: block;
   padding: 18px 40px;
@@ -63,9 +62,9 @@ text-decoration: none;
 #logo {
   font-weight: bold;
   float: left;
-  margin-left: 2.6%;
+  margin-left: 2%;
   margin-top: 0.5%;
-  margin-right: 4%;
+  margin-right: 2%;
   z-index: 7;
 
 }
@@ -108,7 +107,7 @@ z-index: 7;
 }
 .header__nav__menu__link h1 {
 color: #fff;
-margin-left: 80%;
+margin-left: 100%;
 font-size: 15px;
 z-index: 7;
 
@@ -156,7 +155,7 @@ z-index: 7;
 
 }
 
-.header__nav__menu__link a {
+.titre-nav  {
 color: #fff;
 font-family: 'Arial';
 font-weight: 850;
@@ -166,7 +165,7 @@ text-decoration: none;
 position: relative;
 }
 
-.header__nav__menu__link a:after {
+.titre-nav:after {
 content: '';
 height: 2px;
 background-color: #fff;
@@ -179,7 +178,7 @@ z-index: 7;
 
 }
 
-.header__nav__menu__link a:hover:after {
+.titre-nav:hover:after {
 width: 100%;
 left: 0;
 z-index: 7;
@@ -215,7 +214,7 @@ display: none;
 .header__burger {
     display: block;
     cursor: pointer;
-    z-index: 7;
+    z-index: 8;
 
 }
 
@@ -231,14 +230,14 @@ display: none;
     align-items: center;
     justify-content: center;
     display: none;
-    z-index: 7;
+    z-index: 8;
 
 }
 
 .header__nav.open {
     display: flex;
     animation: transformMenu 300ms ease-in-out forwards;
-    z-index: 7;
+    z-index: 8;
 
 }
 
@@ -316,7 +315,7 @@ display: none;
   width: 300px;
   background-color: #f1f1f1;
   position: absolute;
-  font-size: 1.6em;
+  font-size: 1.5em;
   text-align: center;
   margin-top: 4%;
   z-index: 1;
@@ -328,6 +327,9 @@ display: none;
   padding: 48px 60px;
   text-decoration: none;
   z-index: 1;
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .ul li a:hover {
   background-color: #fad390;
@@ -338,12 +340,13 @@ display: none;
     margin-right: 10px;
   }
 
+
 /* **************** IMAGE PRINCIPALE ************* display: block;
   
     */
 #imagePrincipale {
   padding-top: 260px;
-  background: url(/img/background/arriere.png) no-repeat 60% 60%;
+  background: url(img/background/arriere.png) no-repeat 60% 60%;
   background-size: cover;
   height: 799px;
 }
