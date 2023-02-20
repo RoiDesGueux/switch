@@ -47,7 +47,7 @@ text-decoration: none;
   z-index: 7;
 
 }
-.header li a {
+.nav-droite li a {
   text-decoration: none;
   display: block;
   padding: 18px 40px;
@@ -62,9 +62,9 @@ text-decoration: none;
 #logo {
   font-weight: bold;
   float: left;
-  margin-left: 2.6%;
+  margin-left: 2%;
   margin-top: 0.5%;
-  margin-right: 4%;
+  margin-right: 2%;
   z-index: 7;
 
 }
@@ -107,7 +107,7 @@ z-index: 7;
 }
 .header__nav__menu__link h1 {
 color: #fff;
-margin-left: 80%;
+margin-left: 100%;
 font-size: 15px;
 z-index: 7;
 
@@ -155,7 +155,7 @@ z-index: 7;
 
 }
 
-.header__nav__menu__link a {
+.titre-nav  {
 color: #fff;
 font-family: 'Arial';
 font-weight: 850;
@@ -165,7 +165,7 @@ text-decoration: none;
 position: relative;
 }
 
-.header__nav__menu__link a:after {
+.titre-nav:after {
 content: '';
 height: 2px;
 background-color: #fff;
@@ -178,7 +178,7 @@ z-index: 7;
 
 }
 
-.header__nav__menu__link a:hover:after {
+.titre-nav:hover:after {
 width: 100%;
 left: 0;
 z-index: 7;
@@ -214,7 +214,7 @@ display: none;
 .header__burger {
     display: block;
     cursor: pointer;
-    z-index: 7;
+    z-index: 8;
 
 }
 
@@ -230,14 +230,14 @@ display: none;
     align-items: center;
     justify-content: center;
     display: none;
-    z-index: 7;
+    z-index: 8;
 
 }
 
 .header__nav.open {
     display: flex;
     animation: transformMenu 300ms ease-in-out forwards;
-    z-index: 7;
+    z-index: 8;
 
 }
 
@@ -340,12 +340,13 @@ display: none;
     margin-right: 10px;
   }
 
+
 /* **************** IMAGE PRINCIPALE ************* display: block;
   
     */
 #imagePrincipale {
   padding-top: 260px;
-  background: url(/img/background/arriere.png) no-repeat 60% 60%;
+  background: url(img/background/arriere.png) no-repeat 60% 60%;
   background-size: cover;
   height: 799px;
 }
